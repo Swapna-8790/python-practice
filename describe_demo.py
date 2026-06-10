@@ -1,4 +1,3 @@
 import pandas as pd
 df=pd.read_csv("employees.csv")
-df["Bonus"]=df["Salary"] * 0.10
-print(df)
+print(df.describe())
