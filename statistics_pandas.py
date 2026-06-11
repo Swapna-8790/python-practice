@@ -1,10 +1,12 @@
 import pandas as pd
+
 data={
-    "marks":[70,80,80,90,100]
+    "marks":[60,70,80,90,100]
 }
 df=pd.DataFrame(data)
 
-print(df["marks"].mean())
-print(df["marks"].median())
-print(df["marks"].mode())
+print("variance")
+print(df["marks"].var())          
 
+print("\nstandard deviation")
+print(df["marks"].std())                  
