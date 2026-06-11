@@ -1,0 +1,16 @@
+OrderID,Product,Category,Quantity,Price
+1,Rice,Grocery,5,60
+2,Milk,Dairy,3,30
+3,Bread,Bakery,4,25
+4,Rice,Grocery,2,60
+5,Butter,Dairy,2,80
+6,Cake,Bakery,1,250
+7,Rice,Grocery,3,60
+8,Milk,Dairy,5,30
+9,Cake,Bakery,2,250
+10,Butter,Dairy,1,80
+11,Rice,Grocery,4,60
+12,Bread,Bakery,5,25
+13,Milk,Dairy,2,30
+14,Rice,Grocery,6,60
+15,Cake,Bakery,1,250
