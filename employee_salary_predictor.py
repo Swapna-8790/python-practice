@@ -15,11 +15,8 @@ y = df["Salary"]
 model = LinearRegression()
 model.fit(X, y)
 
-predictions=model.predict(
-    [
-        [6,9],
-        [7,10],
-        [8,11]
-    ]
-)
-print(predictions)
+experience=int(input("experience: "))
+skill=int(input("skill: "))
+
+prediction=model.predict([[experience,skill]])
+print(prediction)

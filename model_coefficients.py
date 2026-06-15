@@ -15,11 +15,8 @@ y = df["Salary"]
 model = LinearRegression()
 model.fit(X, y)
 
-predictions=model.predict(
-    [
-        [6,9],
-        [7,10],
-        [8,11]
-    ]
-)
-print(predictions)
+print("coeffients")
+print(model.coef_)
+
+print("\nintercept")
+print(model.intercept_)
