@@ -6,6 +6,5 @@ y=[0,0,0,1,1,1]
 model=DecisionTreeClassifier()
 model.fit(x,y)
 
-print(model.predict(
-    [[2],[4],[6]]
-    ))
+print(model.predict([[3]]))
+print(model.predict([[5]]))
