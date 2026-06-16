@@ -1,15 +1,13 @@
 from sklearn.ensemble import RandomForestClassifier
 
-x=[[1],[2],[3],[4],[5]]
-y=[0,0,0,1,1]
+x=[[1],[2],[3],[4],[5],[6]]
+y=[0,0,0,1,1,1]
 
 model=RandomForestClassifier(
-    n_estimators=10,
+    n_estimators=50,
     random_state=42
 
 )
 model.fit(x,y)
 
-print(model.predict(
-    [[2],[4],[6]]
-    ))
+print(model.predict([[4]]))

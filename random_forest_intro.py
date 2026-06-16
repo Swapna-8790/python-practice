@@ -10,6 +10,4 @@ model=RandomForestClassifier(
 )
 model.fit(x,y)
 
-print(model.predict(
-    [[2],[4],[6]]
-    ))
+print(model.predict([[4]]))

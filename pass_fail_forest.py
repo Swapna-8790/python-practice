@@ -10,14 +10,6 @@ model = RandomForestClassifier(
 
 model.fit(hours, result)
 
-study_hours = int(
-input("Hours Studied: "))
-
-prediction = model.predict(
-    [[study_hours]]
+print(
+    model.predict([[5]])
 )
-
-if prediction[0] == 1:
-    print("Pass")
-else:
-    print("Fail")
