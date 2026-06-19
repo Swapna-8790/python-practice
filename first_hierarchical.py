@@ -5,11 +5,9 @@ x=[
     [3],
     [10],
     [11],
-    [12],
-    [20],
-    [21]
+    [12]
     ]
 model=AgglomerativeClustering(
-    n_clusters=3
+    n_clusters=2
 )
 print(model.fit_predict(x))
