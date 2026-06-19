@@ -1,9 +1,10 @@
 from sklearn.naive_bayes import GaussianNB
 
-x=[[20],[30],[40],[50],[60]]
+x=[[1],[2],[3],[4],[5]]
 y=[0,0,0,1,1]
 
 model=GaussianNB()
 model.fit(x,y)
 
-print(model.predict([[55]]))
+result=model.predict([[4]])
+print(result)
