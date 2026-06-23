@@ -1,0 +1,3 @@
+SELECT *
+FROM Students
+LIMIT 2;
