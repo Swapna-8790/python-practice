@@ -1,0 +1,4 @@
+SELECT *
+FROM School
+ORDER BY marks DESC
+LIMIT 2;

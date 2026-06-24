@@ -1,7 +1,7 @@
 SELECT *
 FROM School
-WHERE marks=
+WHERE marks >
 (
-    SELECT MAX(marks)
+    SELECT AVG(marks)
     FROM School
 );
