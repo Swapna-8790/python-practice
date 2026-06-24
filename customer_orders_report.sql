@@ -1,0 +1,7 @@
+SELECT
+    Customers.customer_name,
+    Orders.order_id,
+    Orders.amount
+FROM Customers
+INNER JOIN Orders
+ON Customers.customer_id=Orders.customer_id;
